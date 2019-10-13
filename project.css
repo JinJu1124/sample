@@ -1,0 +1,58 @@
+   
+    /* 메뉴바 css */
+.navbar navbar-expand-md navbar-dark fixed-top bg-dark {
+    /* fixed-top */
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+
+    /* background color*/
+    background-color: #343a40!important;
+}
+
+.nav justify-content-end{
+    display: flex;
+    padding : .5rem 1rem;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+}
+
+.Pearl-portfolio{
+    color: #fff;
+    box-sizing: border-box;
+
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+#logo{
+    width: 5%;
+}
+
+/* project 배너 부분?*/
+.jumbotron-heading{
+    margin: 5%;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }

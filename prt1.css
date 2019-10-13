@@ -1,0 +1,97 @@
+html {
+    color: -internal-root-color;
+}
+body{
+    margin: 0;
+    background-color: coral;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+    /* 메뉴바 css */
+.navbar navbar-expand-md navbar-dark fixed-top bg-dark {
+    /* fixed-top */
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+
+    /* navbar */
+    position : relative;
+    display: flex;
+    padding : .5rem 1rem;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+
+    /* background color*/
+    background-color: #343a40!important;
+}
+
+#logo{
+    width: 5%;
+}
+
+.Pearl-portfolio{
+    color: #fff;
+    box-sizing: border-box;
+
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.collapse navbar-collapse{
+    margin-top: 0;
+}
+
+/*welcome 부분*/
+.display-2{
+    margin: 5%;
+}
+
+.container{
+    text-align: center;
+
+}
+
+
+#VT_photos{
+    margin:5%;
+    width : 25%;
+
+}
+
+#OC_photo{
+    margin:5%;
+    width : 25%;
+}
+
+#UD_photo{
+    margin:5%;
+    width : 25%;
+}
+
+#SP_photo{
+    margin:5%;
+    width : 25%;
+}
